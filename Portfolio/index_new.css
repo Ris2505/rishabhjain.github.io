@@ -1,0 +1,686 @@
+@media screen and (min-width: 601px) {
+  #text_main{
+  z-index: 2;
+  position: absolute;
+  color: white;
+  top: 130px;
+  left:350px;
+  font-family:  "gilroyextrabold";
+  font-size: 80px;
+  letter-spacing: 0px;
+  word-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: 900;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  animation: fadeIn 3s;
+  }
+}
+@media screen and (max-width: 600px) {
+  #text_main{
+    z-index: 2;
+    position: absolute;
+    color: white;
+    top: 130px;
+    left:350px;
+    font-family:  "gilroyextrabold";
+    font-size: 30px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: 900;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    animation: fadeIn 3s;
+}
+
+}
+  #text_2{
+  width:800px;
+  z-index: 2;
+  position: absolute;
+  color: white;
+  top: 300px;
+  left:280px;
+  font-family:  "gilroyextrabold";
+  font-size: 40px;
+  letter-spacing: 0px;
+  word-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: center;
+  animation: fadeIn 3s;
+  }
+  
+  @font-face {
+      font-family: 'gilroyextrabold';
+      src: url('radomir_tinkov_-_gilroy-extrabold-webfont.woff2') format('woff2'),
+           url('radomir_tinkov_-_gilroy-extrabold-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'gilroyextrabold';
+    src: url('radomir_tinkov_-_gilroy-light-webfont.woff2') format('woff2'),
+         url('radomir_tinkov_-_gilroy-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  
+    
+    nav {
+      position: fixed;
+      border-radius: 50px;
+      top:5%;
+      width: 70%;
+      left : 15%;
+      line-height: 8%;
+      z-index: 100;
+      background-color:rgba(0, 0, 0, 0.7);
+      height: 10%;
+      align-items: center;
+      align-content: center;
+    }
+    
+    nav ul {
+     
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      
+
+      transition: 1s;
+      z-index: 600;
+      text-align: center;
+    }
+    
+    nav.black ul {
+      background: #000;
+      z-index: 600;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      padding: 2% 4%;
+      z-index: 11;
+      
+    
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+    
+   
+      z-index: 11;
+      font-family:  "gilroyextrabold";
+      font-size: 20ew;
+      word-spacing: 1%;
+      color: #FFFFFF;
+      font-weight: 5;
+      text-decoration: none solid rgb(68, 68, 68);
+      font-style: normal;
+      font-variant: normal;
+      text-transform: none;
+      text-align: center;
+    }
+    
+    .menu-icon {
+      line-height: 10%;
+      width: 70%;
+      background: #000;
+      box-sizing: border-box;
+      padding: 2% 3%;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+      z-index: 600;
+    }
+    
+   
+  
+  
+  
+  
+  
+  
+  
+  
+    .first{
+      z-index: -1;
+      width: 100%;
+      overflow: hidden;
+      height: 110%;
+      background: rgba(50.0313413139787,70.56594400980298,224.0533980582524, 1);
+      position: absolute;
+      top:0;
+  
+            
+    
+  }
+  
+  .first.up-scroll {
+    -webkit-transform: translate3d(100, -15vh, 0);
+            transform: translate3d(0, -15vh, 0);
+  }
+    #second{
+      position: absolute;
+      top :700px;
+      background-color:#0000FF;
+      width: 100%;
+      height: 1000px;
+  
+      overflow: hidden;
+      z-index: 4;
+      background-size: cover;
+     
+  
+    }
+  
+  
+  .about_headingdiv{
+    position: absolute;
+    top: 150px;
+    right:900px;
+    z-index: 7;
+    padding: 10px;
+    background-color: transparent;
+      
+  
+  }
+  .about_headingdiv2{
+    position: absolute;
+    top: 100px;
+    left:600px;
+    width:600px;
+    display: inline-block;
+    z-index: 7;
+    padding: 10px;
+    background-color: transparent;
+      
+  
+  }
+  
+  #about_heading{
+    font-family:  "gilroyextrabold";
+      font-size: 90px;
+      letter-spacing: 0px;
+      word-spacing: 2px;
+      color: white;
+      font-weight: 400;
+      text-decoration: none solid rgb(68, 68, 68);
+      font-style: normal;
+      font-variant: normal;
+      text-transform: none;
+      text-align: center;
+      z-index:12;
+      display: inline-block;
+  
+  }
+  #about_content{
+    font-family:  "gilroyextrabold";
+    font-size: 35px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    z-index:12;
+    display: inline-block;
+  
+  }
+  .floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.floating2 { 
+  animation-name: floating2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    60%  { transform: translate(0, 18px); }
+    100%   { transform: translate(0, -0px); }   
+}
+@keyframes floating2 {
+  0% { transform: translate(0,  0px); }
+  40%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }   
+}
+
+
+
+.mouse{
+  width: 600px;
+  height: 600px;
+  z-index: 20;
+  position: relative;
+  background-image: url(hand.png);
+  top: 100px;
+  left:300px;
+}
+
+.pencil{
+  width: 300px;
+  height: 360px;
+  z-index: 20;
+  position:absolute;
+  background-image: url(hand2-removebg-preview.png);
+  background-size: 300px;
+  top: 270px;
+  left:1150px;
+}
+.phone{
+  width: 500px;
+  height: 400px;
+  z-index: 20;
+  position:absolute;
+  background-image: url(hand4-removebg-preview.png);
+  background-size:450px;
+  top: 130px;
+  left:0px;
+  background-repeat: no-repeat;
+}
+
+
+  #third{
+    position: absolute;
+    top :1310px;
+    background-color:#000f89;
+    width: 100%;
+    height:1600px;
+   
+    z-index: 4;
+    
+    background-size: cover;
+  
+  }
+  .projects{
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  height: 500px;
+  background-color: #002244;
+  top:200px;
+
+  
+  
+  }
+  
+  .project_headingdiv{
+  position: absolute;
+  top: 10px;
+  left:400px;
+  z-index: 6;
+  background-color: transparent;
+    
+  
+  }
+  #project_heading{
+  font-family:  "gilroyextrabold";
+    font-size: 60px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    z-index:12;
+  }
+  
+  .container {  display: grid;
+    overflow: hidden;
+    position: relative;
+  z-index: 5;
+  width: 100%;
+  height: 1600px;
+  
+  top:200px;
+  
+  }
+  
+  
+  .my_work_heading{
+    position:absolute;
+    top:0px;
+    left:850px;
+    font-family:  "gilroyextrabold";
+    font-size: 65px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    z-index: 11;
+  }
+  .my_work_heading2{
+    position: absolute;
+    position:absolute;
+    top:120px;
+    left:650px;
+    font-family:  "gilroyextrabold";
+    font-size: 28px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: white;
+    font-weight: 50;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    z-index: 11;
+   
+  }
+  
+  .my_work1{
+    position: absolute;
+    background-size: cover;
+    top:30px;
+    left:670px;
+    right: 0;
+    right:0;
+    z-index: 20;
+    height:450px;
+    width:680px;
+    background-image: url('fitness.jpg');
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 20px;
+  
+  }
+  .my_work1_text{
+    position:absolute;
+    top:0px;
+    left:100px;
+    font-family:  "gilroyextrabold";
+    font-size: 45px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    z-index: 11;
+  }
+  .my_work1_text2{
+    position:absolute;
+    top:100px;
+    width:500px;
+    left:100px;
+    font-family:  "gilroyextrabold";
+    font-size: 30px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    
+    z-index: 11;
+  }
+  .my_work2_text{
+    position:absolute;
+    top:500px;
+    left:920px;
+    font-family:  "gilroyextrabold";
+    font-size: 45px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    z-index: 11;
+  }
+  .my_work2_text2{
+    position:absolute;
+    top:600px;
+    width:500px;
+    right:100px;
+    font-family:  "gilroyextrabold";
+    font-size: 30px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    
+    z-index: 11;
+  }
+
+  .my_work3_text2{
+    position:absolute;
+    top:1030px;
+    width:500px;
+    left:100px;
+    font-family:  "gilroyextrabold";
+    font-size: 30px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    
+    z-index: 11;
+  }
+  
+  .my_work3_text{
+    position:absolute;
+    top:950px;
+    left:100px;
+    font-family:  "gilroyextrabold";
+    font-size: 45px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    z-index: 11;
+  }
+  
+  
+  .my_work2{
+    position: absolute;
+    top:480px;
+    left:0px;
+    height:450px;
+    width:670px;
+    background-image: url('food.jpg');
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 20px;
+    filter: brightness(0.5);
+  }
+  
+  .my_work3{
+    position: absolute;
+    top:930px;
+    left:670px;
+    height:450px;
+    width:680px;
+    background-image: url('work2.jpg');
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 20px;
+    background-size: cover;
+    filter: brightness(0.9);
+  }
+  
+  .my_work4{
+    position: absolute;
+    top:400px;
+    left:850px;
+    height:320px;
+    width:500px;
+  }
+  
+  #fourth{
+    width:100%;
+    background-color: #000;
+    position: absolute;
+    height:500px;
+    top:1600px;
+  }
+
+  button {
+    border-radius: 4px;
+    border-style: solid;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 110px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    background-color: transparent;
+    border-color: black;
+    font-family:  "gilroyextrabold";
+  }
+  
+  button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 10px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+  .btn1{
+    position: absolute;
+    top:330px;
+    left: 80px;
+    height:45px;
+    width:110px;
+    color: #FFFFFF;
+    
+    
+  }
+  .btn2{
+    position: absolute;
+    top:750px;
+    left: 1100px;
+    height:45px;
+    width:110px;
+    color: #FFFFFF;
+    
+  }
+
+  .btn3{
+    position: absolute;
+    top:1210px;
+    left: 60px;
+    height:45px;
+    width:110px;
+    color: #FFFFFF;
+    
+  }
+
+  .fa {
+   
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    z-index: 500;
+  }
+  
+  .fa:hover {
+    
+      opacity: 0.7;
+  }
+  
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+    position: fixed;
+    left: 1250px;
+    top:40px;
+  }
+
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    position: fixed;
+    left: 1250px;
+    top:100px;
+
+  }
